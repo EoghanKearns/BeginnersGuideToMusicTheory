@@ -1,0 +1,71 @@
+body {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ body {
+    background-color: whitesmoke;
+}
+header {
+    border-radius: 5px;
+    background-image: url(../images/instrument-g56fa52d70_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80px;
+    padding: 5px;
+}
+.logo {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: solid 2px rgb(153, 0, 191);
+    border-radius: 250px;
+    margin-left: 5px;
+}
+nav {
+    background-color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li {
+    list-style-type: none;
+    background-color: white;
+    display: contents;
+    padding: 15px;
+    border-radius: 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#title {
+    color: black;
+    text-align: center;
+    text-indent: 10px;
+    float: left;
+    margin-left: 290px;
+}
+#piano {
+    float: right;
+    height: 250px;
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+section.musicTheoryIntro {
+    float: left;
+}
+section.videoContent {
+    float: right;
+    width: 45%;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+    margin-top: 30px;
+}
+
